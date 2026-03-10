@@ -1,2 +1,2 @@
-# Ak-ll-AynaAsistanLLM
+# AkilliAynaAsistanLLM
 AkıllıAynaAsistanLLM versiyon 0.1

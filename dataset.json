@@ -1,0 +1,2657 @@
+[
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 10:30 haftalık toplantı, 14:30 haftalık toplantı, 17:00 yoga.",
+    "output": "Bugün 10:30, 14:30 ve 17:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 19:30 proje toplantısı.",
+    "output": "Saat 19:00'de proje toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 20:00 yoga.",
+    "output": "Evet. Saat 20:00'de yoga planın var."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 20:00 tenis.",
+    "output": "Evet. Saat 20:00'de tenis planın var."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: araştırma, haftalık rapor.",
+    "output": "Bugün araştırma ve haftalık rapor görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "futbol yapmayı unutursam hatırlat.",
+    "input": "Plan: 19:30 futbol.",
+    "output": "Evet. Saat 19:30'de futbol planın var."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:30 planlama toplantısı, 13:30 strateji toplantısı, 16:30 spor salonu.",
+    "output": "Bugün 09:30, 13:30 ve 16:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "yönetim toplantısı için beni hatırlat.",
+    "input": "Plan: 17:30 yönetim toplantısı.",
+    "output": "Saat 17:00'de yönetim toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:00 proje toplantısı, 13:00 planlama toplantısı, 17:00 pilates.",
+    "output": "Programın dolu görünüyor: 09:00 proje toplantısı, 13:00 planlama toplantısı ve 17:00 pilates."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: ödev teslimi, sınav hazırlığı.",
+    "output": "Bugünkü görevlerin: ödev teslimi ve sınav hazırlığı."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ayşe. Plan: 10:30 haftalık rapor.",
+    "output": "Ayşe, bugün saat 10:30'de haftalık rapor planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sınav hazırlığı, müşteri takibi.",
+    "output": "Öncelikle sınav hazırlığı üzerinde çalışmanı, ardından müşteri takibiyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Şevval. Plan: 11:30 yüzme.",
+    "output": "Şevval, bugün saat 11:30'de yüzme planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, ödev teslimi.",
+    "output": "Öncelikle sunum hazırlığı üzerinde çalışmanı, ardından ödev teslimiyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 14:30 müşteri toplantısı.",
+    "output": "Saat 14:00'de müşteri toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 11:30 değerlendirme toplantısı, 13:00 haftalık toplantı, 19:30 bisiklet.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:30 yönetim toplantısı, 15:30 değerlendirme toplantısı, 16:00 basketbol.",
+    "output": "Bugün 09:30, 15:30 ve 16:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 14:30 spor salonu.",
+    "output": "Saat 14:00'de spor salonu için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 17:00 yönetim toplantısı.",
+    "output": "Bugün saat 17:00'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: ödev teslimi, makale yazımı.",
+    "output": "Bugünkü görevlerin: ödev teslimi ve makale yazımı."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Elif. Plan: 15:30 müşteri takibi.",
+    "output": "Elif, bugün saat 15:30'de müşteri takibi planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 10:30 ekip toplantısı, 13:30 strateji toplantısı, 16:30 spor salonu.",
+    "output": "Bugün 10:30, 13:30 ve 16:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: müşteri takibi, belge hazırlama.",
+    "output": "Öncelikle müşteri takibi üzerinde çalışmanı, ardından belge hazırlamayi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ayşe. Plan: 09:00 futbol.",
+    "output": "Ayşe, bugün saat 09:00'de futbol planın bulunuyor."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "Bugün tenis planım var mı?",
+    "input": "Plan: 15:30 tenis.",
+    "output": "Evet. Saat 15:30'de tenis planın var."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Esra. Plan: 17:00 toplantı notu.",
+    "output": "Esra, bugün saat 17:00'de toplantı notu planın bulunuyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 20:00 proje toplantısı.",
+    "output": "Saat 19:30'de proje toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün yönetim toplantısım var mı?",
+    "input": "Takvim: 21:00 yönetim toplantısı.",
+    "output": "Evet. Saat 21:00'de yönetim toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugün hava durumuna göre önerin var mı?",
+    "input": "Hava: yağmurlu.",
+    "output": "Bugün yağmur bekleniyor. Dışarı çıkarken şemsiye almanı öneririm."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 09:30 ekip toplantısı, 15:30 planlama toplantısı, 21:00 pilates.",
+    "output": "Programın dolu görünüyor: 09:30 ekip toplantısı, 15:30 planlama toplantısı ve 21:00 pilates."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: haftalık rapor, makale yazımı.",
+    "output": "Bugünkü görevlerin: haftalık rapor ve makale yazımı."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 19:00 fitness.",
+    "output": "Ali, bugün saat 19:00'de fitness planın bulunuyor."
+  },
+  {
+    "instruction": "13:30 öncesinde uyarır mısın?",
+    "input": "Plan: 13:30 haftalık toplantı.",
+    "output": "Saat 13:00'de haftalık toplantı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: sınav hazırlığı, belge hazırlama.",
+    "output": "Bugünkü görevlerin: sınav hazırlığı ve belge hazırlama."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Şevval. Plan: 19:30 haftalık rapor.",
+    "output": "Şevval, bugün saat 19:30'de haftalık rapor planın bulunuyor."
+  },
+  {
+    "instruction": "Salı günü toplantım kaçta?",
+    "input": "Takvim: 08:00 proje toplantısı.",
+    "output": "Evet. Saat 08:00'de proje toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 12:30 ekip toplantısı, 15:00 müşteri toplantısı, 17:30 bisiklet.",
+    "output": "Programın dolu görünüyor: 12:30 ekip toplantısı, 15:00 müşteri toplantısı ve 17:30 bisiklet."
+  },
+  {
+    "instruction": "Bugün önemli bir toplantım var mı?",
+    "input": "Takvim: 11:30 müşteri toplantısı.",
+    "output": "Evet. Saat 11:30'da müşteri toplantın bulunuyor."
+  },
+  {
+    "instruction": "Bugün programımda ne var?",
+    "input": "Tarih: Pazartesi. Plan: 10:00 ekip toplantısı, 14:00 spor, 19:00 arkadaş buluşması.",
+    "output": "Bugün saat 10:00'da ekip toplantın, 14:00'te spor ve 19:00'da arkadaşlarınla buluşman var."
+  },
+  {
+    "instruction": "fitness yapmayı unutursam hatırlat.",
+    "input": "Plan: 17:00 fitness.",
+    "output": "Bugün fitness planın saat 17:00'de."
+  },
+  {
+    "instruction": "yüzme yapmayı unutursam hatırlat.",
+    "input": "Plan: 14:00 yüzme.",
+    "output": "Evet. Saat 14:00'de yüzme planın var."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: e-posta yazışması, müşteri takibi.",
+    "output": "Bugün e-posta yazışması ve müşteri takibi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 14:00 pilates.",
+    "output": "Evet. Saat 14:00'de pilates planın var."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: ödev teslimi, sunum hazırlığı.",
+    "output": "Bugün ödev teslimi ve sunum hazırlığı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 19:00 pilates.",
+    "output": "Bugün pilates planın saat 19:00'de."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, kod geliştirme.",
+    "output": "Bugünkü görevlerin: sunum hazırlığı ve kod geliştirme."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 21:00 basketbol.",
+    "output": "Bugün basketbol planın saat 21:00'de."
+  },
+  {
+    "instruction": "Bugün pilates planım var mı?",
+    "input": "Plan: 18:00 pilates.",
+    "output": "Bugün pilates planın saat 18:00'de."
+  },
+  {
+    "instruction": "Bugün yönetim toplantısım var mı?",
+    "input": "Takvim: 13:30 yönetim toplantısı.",
+    "output": "Bugün saat 13:30'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 18:30 yönetim toplantısı.",
+    "output": "Saat 18:00'de yönetim toplantısın için hazırlanmaya başlamalısın, toplantı 18:30'de."
+  },
+  {
+    "instruction": "Bugün neyi unutmamam gerekiyor?",
+    "input": "Görev: proje teslimi.",
+    "output": "Bugün proje teslimini unutmaman gerekiyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 15:00 yönetim toplantısı.",
+    "output": "Evet. Saat 15:00'de yönetim toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 17:30 yönetim toplantısı.",
+    "output": "Saat 17:00'de yönetim toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 08:30 müşteri toplantısı.",
+    "output": "Bugün saat 08:30'de müşteri toplantısın var."
+  },
+  {
+    "instruction": "yoga yapmayı unutursam hatırlat.",
+    "input": "Plan: 13:30 yoga.",
+    "output": "Saat 13:00'de yoga için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "yoga yapmayı unutursam hatırlat.",
+    "input": "Plan: 18:00 yoga.",
+    "output": "Bugün yoga planın saat 18:00'de."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "bisiklet yapmayı unutursam hatırlat.",
+    "input": "Plan: 17:00 bisiklet.",
+    "output": "Bugün bisiklet planın saat 17:00'de."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 18:00 makale yazımı.",
+    "output": "Mehmet, bugün saat 18:00'de makale yazımı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Can. Plan: 17:30 proje toplantısı.",
+    "output": "Can, bugün saat 17:30'de proje toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: haftalık rapor, kod geliştirme.",
+    "output": "Bugünkü görevlerin: haftalık rapor ve kod geliştirme."
+  },
+  {
+    "instruction": "pilates yapmayı unutursam hatırlat.",
+    "input": "Plan: 21:00 pilates.",
+    "output": "Bugün pilates planın saat 21:00'de."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 12:00 strateji toplantısı.",
+    "output": "Saat 11:30'de strateji toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 18:30 basketbol.",
+    "output": "Saat 18:00'de basketbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: belge hazırlama, ödev teslimi.",
+    "output": "Bugün belge hazırlama ve ödev teslimi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 10:00 müşteri toplantısı, 15:00 proje toplantısı, 20:30 bisiklet.",
+    "output": "Programın dolu görünüyor: 10:00 müşteri toplantısı, 15:00 proje toplantısı ve 20:30 bisiklet."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 11:00 strateji toplantısı.",
+    "output": "Evet. Saat 11:00'de strateji toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Bugün yapılacaklar listemde ne var?",
+    "input": "Todo: sunum hazırla, e-posta gönder.",
+    "output": "Bugün sunum hazırlaman ve bazı e-postaları göndermen gerekiyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 19:30 spor salonu.",
+    "output": "Saat 19:00'de spor salonu için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 12:30 proje toplantısı.",
+    "output": "Bugün saat 12:30'de proje toplantısın var."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 09:00 ekip toplantısı, 15:30 değerlendirme toplantısı, 20:00 spor salonu.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Esra. Plan: 11:30 proje toplantısı.",
+    "output": "Esra, bugün saat 11:30'de proje toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ayşe. Plan: 19:00 araştırma.",
+    "output": "Ayşe, bugün saat 19:00'de araştırma planın bulunuyor."
+  },
+  {
+    "instruction": "strateji toplantısı için beni hatırlat.",
+    "input": "Plan: 12:00 strateji toplantısı.",
+    "output": "Saat 11:30'de strateji toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "yoga yapmayı unutursam hatırlat.",
+    "input": "Plan: 14:00 yoga.",
+    "output": "Saat 13:30'de yoga için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: belge hazırlama, ödev teslimi.",
+    "output": "Bugünkü görevlerin: belge hazırlama ve ödev teslimi."
+  },
+  {
+    "instruction": "fitness yapmayı unutursam hatırlat.",
+    "input": "Plan: 15:30 fitness.",
+    "output": "Evet. Saat 15:30'de fitness planın var."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 16:30 müşteri toplantısı.",
+    "output": "Saat 16:00'de müşteri toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 18:00 haftalık toplantı.",
+    "output": "Saat 17:30'de haftalık toplantın için hazırlanmaya başlamalısın, toplantı 18:00'de."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: araştırma, belge hazırlama.",
+    "output": "Bugünkü görevlerin: araştırma ve belge hazırlama."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 20:30 spor salonu.",
+    "output": "Evet. Saat 20:30'de spor salonu planın var."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 09:00 planlama toplantısı, 15:30 ekip toplantısı, 17:00 fitness.",
+    "output": "Programın dolu görünüyor: 09:00 planlama toplantısı, 15:30 ekip toplantısı ve 17:00 fitness."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 19:00 yoga.",
+    "output": "Saat 18:30'de yoga için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün hangi saatlerde boşum?",
+    "input": "Takvim: 09:00 ve 14:00 toplantı.",
+    "output": "Toplantılar dışında kalan saatlerde boş zamanın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 12:30 proje toplantısı, 13:00 ekip toplantısı, 19:30 basketbol.",
+    "output": "Programın dolu görünüyor: 12:30 proje toplantısı, 13:00 ekip toplantısı ve 19:30 basketbol."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: toplantı notu, müşteri takibi.",
+    "output": "Bugünkü görevlerin: toplantı notu ve müşteri takibi."
+  },
+  {
+    "instruction": "13:30 öncesinde uyarır mısın?",
+    "input": "Plan: 13:30 strateji toplantısı.",
+    "output": "Saat 13:00'de strateji toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 08:00 proje toplantısı, 15:00 müşteri toplantısı, 19:00 yüzme.",
+    "output": "Programın dolu görünüyor: 08:00 proje toplantısı, 15:00 müşteri toplantısı ve 19:00 yüzme."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 20:30 yoga.",
+    "output": "Saat 20:00'de yoga için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 20:00 bisiklet.",
+    "output": "Evet. Saat 20:00'de bisiklet planın var."
+  },
+  {
+    "instruction": "Pazar günü toplantım kaçta?",
+    "input": "Takvim: 11:30 ekip toplantısı.",
+    "output": "Evet. Saat 11:30'de ekip toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 15:30 sunum hazırlığı.",
+    "output": "Ali, bugün saat 15:30'de sunum hazırlığı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: kod geliştirme, makale yazımı.",
+    "output": "Öncelikle kod geliştirme üzerinde çalışmanı, ardından makale yazımıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 19:30 futbol.",
+    "output": "Evet. Saat 19:30'de futbol planın var."
+  },
+  {
+    "instruction": "Perşembe günü toplantım kaçta?",
+    "input": "Takvim: 17:30 ekip toplantısı.",
+    "output": "Saat 17:00'de ekip toplantısın için hazırlanmaya başlamalısın, toplantı 17:30'de."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 20:00 koşu.",
+    "output": "Saat 19:30'de koşu için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 08:30 yönetim toplantısı, 14:30 haftalık toplantı, 18:00 bisiklet.",
+    "output": "Bugün 08:30, 14:30 ve 18:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "20:30 öncesinde uyarır mısın?",
+    "input": "Plan: 20:30 planlama toplantısı.",
+    "output": "Saat 20:00'de planlama toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 20:30 fitness.",
+    "output": "Bugün fitness planın saat 20:30'de."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 12:30 fitness.",
+    "output": "Saat 12:00'de fitness için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 10:30 yönetim toplantısı, 14:00 proje toplantısı, 16:30 futbol.",
+    "output": "Bugün 10:30, 14:00 ve 16:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 12:00 strateji toplantısı.",
+    "output": "Bugün saat 12:00'de strateji toplantısın var."
+  },
+  {
+    "instruction": "Bugün telefonla aramam gereken biri var mı?",
+    "input": "Todo: müşteri araması.",
+    "output": "Evet. Bugün müşteriyi araman gerekiyor."
+  },
+  {
+    "instruction": "Bugün dışarı çıkmak için uygun zamanım var mı?",
+    "input": "Takvim: öğleden sonra boş.",
+    "output": "Öğleden sonra dışarı çıkmak için uygun zamanın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 09:30 kod geliştirme.",
+    "output": "Mehmet, bugün saat 09:30'de kod geliştirme planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 10:30 haftalık toplantı, 13:30 haftalık toplantı, 19:30 yüzme.",
+    "output": "Bugün 10:30, 13:30 ve 19:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün kendimi geliştirmek için bir şey yapmalı mıyım?",
+    "input": "Boş zaman: 1 saat.",
+    "output": "Bugün yaklaşık bir saat boş zamanın var. Bu zamanı öğrenme veya okuma için değerlendirebilirsin."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Bugün boş vaktim var mı?",
+    "input": "Takvim: 09:00 ders, 12:00 yemek, 17:00 toplantı.",
+    "output": "Öğle yemeğinden sonra saat 17:00'ye kadar boş zamanın var."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sınav hazırlığı, kod geliştirme.",
+    "output": "Bugünkü görevlerin: sınav hazırlığı ve kod geliştirme."
+  },
+  {
+    "instruction": "18:00 öncesinde uyarır mısın?",
+    "input": "Plan: 18:00 basketbol.",
+    "output": "Saat 17:30'de basketbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 15:30 fitness.",
+    "output": "Saat 15:00'de fitness için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, e-posta yazışması.",
+    "output": "Bugün sunum hazırlığı ve e-posta yazışması görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 11:30 değerlendirme toplantısı, 13:30 haftalık toplantı, 20:00 tenis.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Berkay. Plan: 13:00 haftalık toplantı.",
+    "output": "Berkay, bugün saat 13:00'de haftalık toplantı planın bulunuyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: e-posta yazışması, toplantı notu.",
+    "output": "Öncelikle e-posta yazışması üzerinde çalışmanı, ardından toplantı notuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 13:00 haftalık toplantı.",
+    "output": "Saat 12:30'de haftalık toplantın için hazırlanmaya başlamalısın, toplantı 13:00'de."
+  },
+  {
+    "instruction": "Bugün proje toplantısım var mı?",
+    "input": "Takvim: 11:30 proje toplantısı.",
+    "output": "Evet. Saat 11:30'de proje toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 21:00 müşteri toplantısı.",
+    "output": "Saat 20:30'de müşteri toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: toplantı notu, kod geliştirme.",
+    "output": "Bugünkü görevlerin: toplantı notu ve kod geliştirme."
+  },
+  {
+    "instruction": "19:00 öncesinde uyarır mısın?",
+    "input": "Plan: 19:00 bisiklet.",
+    "output": "Saat 18:30'de bisiklet için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: proje raporu, haftalık rapor.",
+    "output": "Öncelikle proje raporu üzerinde çalışmanı, ardından haftalık raporyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "20:00 öncesinde uyarır mısın?",
+    "input": "Plan: 20:00 yönetim toplantısı.",
+    "output": "Saat 19:30'de yönetim toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "fitness yapmayı unutursam hatırlat.",
+    "input": "Plan: 13:30 fitness.",
+    "output": "Bugün fitness planın saat 13:30'de."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: makale yazımı, sunum hazırlığı.",
+    "output": "Bugünkü görevlerin: makale yazımı ve sunum hazırlığı."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 15:30 spor salonu.",
+    "output": "Ali, bugün saat 15:30'de spor salonu planın bulunuyor."
+  },
+  {
+    "instruction": "Salı günü toplantım kaçta?",
+    "input": "Takvim: 19:30 değerlendirme toplantısı.",
+    "output": "Evet. Saat 19:30'de değerlendirme toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 18:00 futbol.",
+    "output": "Saat 17:30'de futbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 08:00 haftalık toplantı, 15:00 değerlendirme toplantısı, 19:30 fitness.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: proje raporu, kod geliştirme.",
+    "output": "Bugünkü görevlerin: proje raporu ve kod geliştirme."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 14:30 yoga.",
+    "output": "Saat 14:00'de yoga için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: haftalık rapor, makale yazımı.",
+    "output": "Öncelikle haftalık rapor üzerinde çalışmanı, ardından makale yazımıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Yoğun program.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: sınav hazırlığı, haftalık rapor.",
+    "output": "Öncelikle sınav hazırlığı üzerinde çalışmanı, ardından haftalık raporyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Zeynep. Plan: 08:30 futbol.",
+    "output": "Zeynep, bugün saat 08:30'de futbol planın bulunuyor."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 17:00 pilates.",
+    "output": "Evet. Saat 17:00'de pilates planın var."
+  },
+  {
+    "instruction": "spor salonu yapmayı unutursam hatırlat.",
+    "input": "Plan: 20:00 spor salonu.",
+    "output": "Evet. Saat 20:00'de spor salonu planın var."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Yoğun program.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün proje toplantısım var mı?",
+    "input": "Takvim: 13:00 proje toplantısı.",
+    "output": "Bugün saat 13:00'de proje toplantısın var."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 14:30 bisiklet.",
+    "output": "Saat 14:00'de bisiklet için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 16:30 yönetim toplantısı.",
+    "output": "Bugün saat 16:30'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "Bugün ekip toplantısım var mı?",
+    "input": "Takvim: 14:00 ekip toplantısı.",
+    "output": "Bugün saat 14:00'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün değerlendirme toplantısım var mı?",
+    "input": "Takvim: 09:30 değerlendirme toplantısı.",
+    "output": "Evet. Saat 09:30'de değerlendirme toplantısın bulunuyor."
+  },
+  {
+    "instruction": "değerlendirme toplantısı için beni hatırlat.",
+    "input": "Plan: 17:30 değerlendirme toplantısı.",
+    "output": "Saat 17:00'de değerlendirme toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: belge hazırlama, toplantı notu.",
+    "output": "Öncelikle belge hazırlama üzerinde çalışmanı, ardından toplantı notuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 12:00 değerlendirme toplantısı, 13:30 strateji toplantısı, 17:00 futbol.",
+    "output": "Programın dolu görünüyor: 12:00 değerlendirme toplantısı, 13:30 strateji toplantısı ve 17:00 futbol."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 18:00 koşu.",
+    "output": "Saat 17:30'de koşu için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 18:00 yüzme.",
+    "output": "Evet. Saat 18:00'de yüzme planın var."
+  },
+  {
+    "instruction": "Bugün için önerin var mı?",
+    "input": "Takvim: yoğun program.",
+    "output": "Bugün programın yoğun görünüyor. Boşluklarda kısa yürüyüş yapmayı veya biraz dinlenmeyi düşünebilirsin."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 09:00 müşteri toplantısı, 14:30 müşteri toplantısı, 19:00 koşu.",
+    "output": "Programın dolu görünüyor: 09:00 müşteri toplantısı, 14:30 müşteri toplantısı ve 19:00 koşu."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Burak. Plan: 16:00 planlama toplantısı.",
+    "output": "Burak, bugün saat 16:00'de planlama toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, makale yazımı.",
+    "output": "Bugün sunum hazırlığı ve makale yazımı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "koşu için beni hatırlat.",
+    "input": "Plan: 14:30 koşu.",
+    "output": "Saat 14:00'de koşu için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "12:00 öncesinde uyarır mısın?",
+    "input": "Plan: 12:00 haftalık toplantı.",
+    "output": "Saat 11:30'de haftalık toplantı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: proje raporu, belge hazırlama.",
+    "output": "Bugün proje raporu ve belge hazırlama görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "tenis için beni hatırlat.",
+    "input": "Plan: 18:00 tenis.",
+    "output": "Saat 17:30'de tenis için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "koşu yapmayı unutursam hatırlat.",
+    "input": "Plan: 14:00 koşu.",
+    "output": "Saat 13:30'de koşu için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 12:00 strateji toplantısı.",
+    "output": "Bugün saat 12:00'de strateji toplantısın var."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 14:30 ekip toplantısı.",
+    "output": "Bugün saat 14:30'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Yoğun program.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Burak. Plan: 20:30 fitness.",
+    "output": "Burak, bugün saat 20:30'de fitness planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün dersim var mı?",
+    "input": "Takvim: 13:00 yapay zeka dersi.",
+    "output": "Evet. Saat 13:00'te yapay zeka dersin var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 14:30 bisiklet.",
+    "output": "Ali, bugün saat 14:30'de bisiklet planın bulunuyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: belge hazırlama, araştırma.",
+    "output": "Bugünkü görevlerin: belge hazırlama ve araştırma."
+  },
+  {
+    "instruction": "fitness yapmayı unutursam hatırlat.",
+    "input": "Plan: 16:00 fitness.",
+    "output": "Evet. Saat 16:00'de fitness planın var."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 11:30 haftalık toplantı, 15:00 müşteri toplantısı, 16:00 yüzme.",
+    "output": "Programın dolu görünüyor: 11:30 haftalık toplantı, 15:00 müşteri toplantısı ve 16:00 yüzme."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Zeynep. Plan: 20:30 ödev teslimi.",
+    "output": "Zeynep, bugün saat 20:30'de ödev teslimi planın bulunuyor."
+  },
+  {
+    "instruction": "Akşam planım boş mu?",
+    "input": "Takvim: akşam için plan yok.",
+    "output": "Evet. Akşam saatleri için planlanmış bir etkinliğin görünmüyor."
+  },
+  {
+    "instruction": "Bugün haftalık toplantım var mı?",
+    "input": "Takvim: 20:30 haftalık toplantı.",
+    "output": "Saat 20:00'de haftalık toplantın için hazırlanmaya başlamalısın, toplantı 20:30'de."
+  },
+  {
+    "instruction": "Bugün koşu planım var mı?",
+    "input": "Plan: 17:30 koşu.",
+    "output": "Bugün koşu planın saat 17:30'de."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 09:00 ekip toplantısı, 14:30 değerlendirme toplantısı, 19:30 yoga.",
+    "output": "Bugün 09:00, 14:30 ve 19:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: müşteri takibi, araştırma.",
+    "output": "Bugün müşteri takibi ve araştırma görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "koşu yapmayı unutursam hatırlat.",
+    "input": "Plan: 20:30 koşu.",
+    "output": "Evet. Saat 20:30'de koşu planın var."
+  },
+  {
+    "instruction": "Bugün işten sonra planım var mı?",
+    "input": "Takvim: 19:30 yemek.",
+    "output": "Evet. İşten sonra saat 19:30'da yemek planın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Zeynep. Plan: 13:30 müşteri toplantısı.",
+    "output": "Zeynep, bugün saat 13:30'de müşteri toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Burak. Plan: 09:00 toplantı notu.",
+    "output": "Burak, bugün saat 09:00'de toplantı notu planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Şevval. Plan: 15:30 basketbol.",
+    "output": "Şevval, bugün saat 15:30'de basketbol planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün telefon görüşmem var mı?",
+    "input": "Takvim: 15:00 müşteri araması.",
+    "output": "Evet. Saat 15:00'te müşteriyle telefon görüşmen var."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: kod geliştirme, haftalık rapor.",
+    "output": "Bugün kod geliştirme ve haftalık rapor görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Esra. Plan: 20:30 proje toplantısı.",
+    "output": "Esra, bugün saat 20:30'de proje toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: ödev teslimi, toplantı notu.",
+    "output": "Öncelikle ödev teslimi üzerinde çalışmanı, ardından toplantı notuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün yoga planım var mı?",
+    "input": "Plan: 17:00 yoga.",
+    "output": "Bugün yoga planın saat 17:00'de."
+  },
+  {
+    "instruction": "yüzme yapmayı unutursam hatırlat.",
+    "input": "Plan: 17:00 yüzme.",
+    "output": "Saat 16:30'de yüzme için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "fitness için beni hatırlat.",
+    "input": "Plan: 16:00 fitness.",
+    "output": "Saat 15:30'de fitness için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 15:00 tenis.",
+    "output": "Bugün tenis planın saat 15:00'de."
+  },
+  {
+    "instruction": "14:00 öncesinde uyarır mısın?",
+    "input": "Plan: 14:00 basketbol.",
+    "output": "Saat 13:30'de basketbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 08:30 yönetim toplantısı.",
+    "output": "Saat 08:00'de yönetim toplantısın için hazırlanmaya başlamalısın, toplantı 08:30'de."
+  },
+  {
+    "instruction": "Bugün bir sunumum var mı?",
+    "input": "Takvim: 11:00 sunum.",
+    "output": "Evet. Saat 11:00'de bir sunumun var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Şevval. Plan: 21:00 yüzme.",
+    "output": "Şevval, bugün saat 21:00'de yüzme planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün fitness planım var mı?",
+    "input": "Plan: 19:00 fitness.",
+    "output": "Evet. Saat 19:00'de fitness planın var."
+  },
+  {
+    "instruction": "Bugün müşteri toplantısım var mı?",
+    "input": "Takvim: 14:30 müşteri toplantısı.",
+    "output": "Saat 14:00'de müşteri toplantısın için hazırlanmaya başlamalısın, toplantı 14:30'de."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Yoğun program.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 15:00 strateji toplantısı.",
+    "output": "Evet. Saat 15:00'de strateji toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 19:30 yönetim toplantısı.",
+    "output": "Evet. Saat 19:30'de yönetim toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 08:30 proje toplantısı, 13:30 yönetim toplantısı, 18:00 futbol.",
+    "output": "Programın dolu görünüyor: 08:30 proje toplantısı, 13:30 yönetim toplantısı ve 18:00 futbol."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Yoğun program.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Yoğun program.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Toplantımdan önce bana hatırlatma yap.",
+    "input": "Toplantı: 14:00 ekip toplantısı.",
+    "output": "Tamam. Saat 13:50'de toplantın için hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 12:30 müşteri toplantısı, 15:30 planlama toplantısı, 19:30 bisiklet.",
+    "output": "Bugün 12:30, 15:30 ve 19:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Boş gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Şevval. Plan: 18:00 ödev teslimi.",
+    "output": "Şevval, bugün saat 18:00'de ödev teslimi planın bulunuyor."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugün hangi saatte spor var?",
+    "input": "Plan: 19:00 spor salonu.",
+    "output": "Bugün spor salonu planın saat 19:00'da."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 12:00 müşteri toplantısı, 13:30 planlama toplantısı, 19:30 futbol.",
+    "output": "Programın dolu görünüyor: 12:00 müşteri toplantısı, 13:30 planlama toplantısı ve 19:30 futbol."
+  },
+  {
+    "instruction": "yüzme yapmayı unutursam hatırlat.",
+    "input": "Plan: 14:30 yüzme.",
+    "output": "Evet. Saat 14:30'de yüzme planın var."
+  },
+  {
+    "instruction": "Bugün haftalık toplantım var mı?",
+    "input": "Takvim: 12:00 haftalık toplantı.",
+    "output": "Saat 11:30'de haftalık toplantın için hazırlanmaya başlamalısın, toplantı 12:00'de."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: makale yazımı, ödev teslimi.",
+    "output": "Bugün makale yazımı ve ödev teslimi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Perşembe günü toplantım kaçta?",
+    "input": "Takvim: 19:30 proje toplantısı.",
+    "output": "Bugün saat 19:30'de proje toplantısın var."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 10:30 değerlendirme toplantısı, 15:00 yönetim toplantısı, 19:00 yoga.",
+    "output": "Bugün 10:30, 15:00 ve 19:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Akşam planım neydi?",
+    "input": "Takvim: 20:00 arkadaşlarla yemek.",
+    "output": "Akşam saat 20:00'de arkadaşlarınla yemek planın var."
+  },
+  {
+    "instruction": "Bugün yapmam gereken görevler neler?",
+    "input": "Todo: proje raporu bitir, market alışverişi.",
+    "output": "Bugün proje raporunu tamamlaman ve market alışverişi yapman gerekiyor."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 14:30 değerlendirme toplantısı.",
+    "output": "Saat 14:00'de değerlendirme toplantısın için hazırlanmaya başlamalısın, toplantı 14:30'de."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: sınav hazırlığı, belge hazırlama.",
+    "output": "Bugünkü görevlerin: sınav hazırlığı ve belge hazırlama."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 21:00 koşu.",
+    "output": "Saat 20:30'de koşu için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün spor yapacak mıydım?",
+    "input": "Plan: 18:30 fitness.",
+    "output": "Evet. Saat 18:30'da fitness antrenmanı planlamışsın."
+  },
+  {
+    "instruction": "Bugün koşu planım var mı?",
+    "input": "Plan: 16:00 koşu.",
+    "output": "Evet. Saat 16:00'de koşu planın var."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Boş gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Bugün kendime zaman ayırabilir miyim?",
+    "input": "Takvim: öğleden sonra boşluk.",
+    "output": "Evet. Öğleden sonra kendine zaman ayırabileceğin bir boşluk bulunuyor."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 15:30 yönetim toplantısı.",
+    "output": "Bugün saat 15:30'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "Bugün bisiklet planım var mı?",
+    "input": "Plan: 16:30 bisiklet.",
+    "output": "Saat 16:00'de bisiklet için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 14:30 koşu.",
+    "output": "Evet. Saat 14:30'de koşu planın var."
+  },
+  {
+    "instruction": "yüzme yapmayı unutursam hatırlat.",
+    "input": "Plan: 20:00 yüzme.",
+    "output": "Saat 19:30'de yüzme için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 09:00 proje toplantısı.",
+    "output": "Bugün saat 09:00'de proje toplantısın var."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:30 planlama toplantısı, 13:00 proje toplantısı, 19:30 yüzme.",
+    "output": "Programın dolu görünüyor: 09:30 planlama toplantısı, 13:00 proje toplantısı ve 19:30 yüzme."
+  },
+  {
+    "instruction": "spor salonu yapmayı unutursam hatırlat.",
+    "input": "Plan: 17:30 spor salonu.",
+    "output": "Evet. Saat 17:30'de spor salonu planın var."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 10:00 değerlendirme toplantısı, 13:30 ekip toplantısı, 21:00 futbol.",
+    "output": "Bugün 10:00, 13:30 ve 21:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Yoğun program.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Şevval. Plan: 12:00 belge hazırlama.",
+    "output": "Şevval, bugün saat 12:00'de belge hazırlama planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün çalışmam gereken bir proje var mı?",
+    "input": "Todo: proje geliştirme.",
+    "output": "Evet. Bugün proje geliştirme üzerinde çalışman gerekiyor."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 09:30 ekip toplantısı, 15:30 yönetim toplantısı, 17:00 futbol.",
+    "output": "Programın dolu görünüyor: 09:30 ekip toplantısı, 15:30 yönetim toplantısı ve 17:00 futbol."
+  },
+  {
+    "instruction": "Bugün en önemli görevim ne?",
+    "input": "Görev: proje teslimi.",
+    "output": "Bugün en önemli görevin proje teslimini tamamlamak."
+  },
+  {
+    "instruction": "yüzme yapmayı unutursam hatırlat.",
+    "input": "Plan: 15:00 yüzme.",
+    "output": "Bugün yüzme planın saat 15:00'de."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 08:00 ekip toplantısı, 13:00 değerlendirme toplantısı, 18:00 koşu.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 20:00 tenis.",
+    "output": "Mehmet, bugün saat 20:00'de tenis planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün dışarı çıkmam gerekiyor mu?",
+    "input": "Plan: 15:00 banka işlemi.",
+    "output": "Evet. Saat 15:00'te banka işlemi için dışarı çıkman gerekiyor."
+  },
+  {
+    "instruction": "13:30 öncesinde uyarır mısın?",
+    "input": "Plan: 13:30 proje toplantısı.",
+    "output": "Saat 13:00'de proje toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 19:30 e-posta yazışması.",
+    "output": "Mehmet, bugün saat 19:30'de e-posta yazışması planın bulunuyor."
+  },
+  {
+    "instruction": "bisiklet yapmayı unutursam hatırlat.",
+    "input": "Plan: 14:00 bisiklet.",
+    "output": "Saat 13:30'de bisiklet için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "pilates yapmayı unutursam hatırlat.",
+    "input": "Plan: 13:00 pilates.",
+    "output": "Bugün pilates planın saat 13:00'de."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 17:00 strateji toplantısı.",
+    "output": "Saat 16:30'de strateji toplantısın için hazırlanmaya başlamalısın, toplantı 17:00'de."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 11:00 strateji toplantısı, 15:00 haftalık toplantı, 17:00 bisiklet.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün yürüyüş planlamış mıydım?",
+    "input": "Plan: 18:00 yürüyüş.",
+    "output": "Evet. Saat 18:00'de yürüyüş planlamışsın."
+  },
+  {
+    "instruction": "Bugün hangi görevlerimi tamamlamalıyım?",
+    "input": "Todo: rapor yaz, e-posta gönder.",
+    "output": "Bugün rapor yazman ve e-postaları göndermen gerekiyor."
+  },
+  {
+    "instruction": "Bugün kendime mola vermeli miyim?",
+    "input": "Takvim: yoğun.",
+    "output": "Programın yoğun görünüyor. Kısa molalar vermen faydalı olabilir."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 15:00 yönetim toplantısı.",
+    "output": "Saat 14:30'de yönetim toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Pazartesi günü toplantım kaçta?",
+    "input": "Takvim: 08:30 ekip toplantısı.",
+    "output": "Bugün saat 08:30'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: haftalık rapor, müşteri takibi.",
+    "output": "Bugün haftalık rapor ve müşteri takibi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 21:00 yönetim toplantısı.",
+    "output": "Saat 20:30'de yönetim toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "yoga yapmayı unutursam hatırlat.",
+    "input": "Plan: 13:30 yoga.",
+    "output": "Saat 13:00'de yoga için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 10:00 strateji toplantısı, 13:30 yönetim toplantısı, 17:00 koşu.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 08:00 müşteri toplantısı, 15:30 planlama toplantısı, 21:00 bisiklet.",
+    "output": "Bugün 08:00, 15:30 ve 21:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün hangi işi önce yapmalıyım?",
+    "input": "Todo: rapor, sunum.",
+    "output": "Öncelikle raporunu tamamlaman daha önemli görünüyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: e-posta yazışması, proje raporu.",
+    "output": "Öncelikle e-posta yazışması üzerinde çalışmanı, ardından proje raporuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "tenis yapmayı unutursam hatırlat.",
+    "input": "Plan: 14:30 tenis.",
+    "output": "Evet. Saat 14:30'de tenis planın var."
+  },
+  {
+    "instruction": "15:30 öncesinde uyarır mısın?",
+    "input": "Plan: 15:30 basketbol.",
+    "output": "Saat 15:00'de basketbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 15:00 yüzme.",
+    "output": "Saat 14:30'de yüzme için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün kendime ayıracak zamanım var mı?",
+    "input": "Takvim: 09:00 toplantı, 13:00 rapor, 17:00 spor.",
+    "output": "Öğleden sonra spor öncesinde kısa bir boş zamanın bulunuyor."
+  },
+  {
+    "instruction": "pilates için beni hatırlat.",
+    "input": "Plan: 20:00 pilates.",
+    "output": "Saat 19:30'de pilates için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Bugün proje toplantısım var mı?",
+    "input": "Takvim: 14:30 proje toplantısı.",
+    "output": "Saat 14:00'de proje toplantısın için hazırlanmaya başlamalısın, toplantı 14:30'de."
+  },
+  {
+    "instruction": "Bugün fitness planım var mı?",
+    "input": "Plan: 18:00 fitness.",
+    "output": "Evet. Saat 18:00'de fitness planın var."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 19:30 bisiklet.",
+    "output": "Bugün bisiklet planın saat 19:30'de."
+  },
+  {
+    "instruction": "Bugün ekip toplantısım var mı?",
+    "input": "Takvim: 18:30 ekip toplantısı.",
+    "output": "Bugün saat 18:30'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:30 müşteri toplantısı, 15:30 müşteri toplantısı, 17:00 bisiklet.",
+    "output": "Bugün 09:30, 15:30 ve 17:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: proje raporu, sunum hazırlığı.",
+    "output": "Öncelikle proje raporu üzerinde çalışmanı, ardından sunum hazırlığıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 09:00 ekip toplantısı, 14:00 değerlendirme toplantısı, 20:00 pilates.",
+    "output": "Programın dolu görünüyor: 09:00 ekip toplantısı, 14:00 değerlendirme toplantısı ve 20:00 pilates."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 09:30 ekip toplantısı.",
+    "output": "Evet. Saat 09:30'de ekip toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugün alışveriş yapmam gerekiyor mu?",
+    "input": "Todo: market alışverişi.",
+    "output": "Evet. Bugün market alışverişi yapman gerekiyor."
+  },
+  {
+    "instruction": "Bugün fitness planım var mı?",
+    "input": "Plan: 19:30 fitness.",
+    "output": "Evet. Saat 19:30'de fitness planın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Can. Plan: 11:30 sınav hazırlığı.",
+    "output": "Can, bugün saat 11:30'de sınav hazırlığı planın bulunuyor."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 14:30 haftalık toplantı.",
+    "output": "Bugün saat 14:30'de haftalık toplantın var."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 20:00 spor salonu.",
+    "output": "Evet. Saat 20:00'de spor salonu planın var."
+  },
+  {
+    "instruction": "Sabah bir randevum var mı?",
+    "input": "Takvim: 08:30 doktor randevusu.",
+    "output": "Evet. Sabah saat 08:30'da doktor randevun bulunuyor."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Salı günü toplantım kaçta?",
+    "input": "Takvim: 13:00 yönetim toplantısı.",
+    "output": "Saat 12:30'de yönetim toplantısın için hazırlanmaya başlamalısın, toplantı 13:00'de."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Yoğun program.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:00 proje toplantısı, 13:00 yönetim toplantısı, 17:00 basketbol.",
+    "output": "Bugün 09:00, 13:00 ve 17:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün akşam kaçta boş olacağım?",
+    "input": "Takvim: 18:00 spor.",
+    "output": "Spor sonrası akşam saatlerinde boş olacaksın."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: müşteri takibi, toplantı notu.",
+    "output": "Öncelikle müşteri takibi üzerinde çalışmanı, ardından toplantı notuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 09:30 proje toplantısı, 14:00 haftalık toplantı, 20:30 pilates.",
+    "output": "Programın dolu görünüyor: 09:30 proje toplantısı, 14:00 haftalık toplantı ve 20:30 pilates."
+  },
+  {
+    "instruction": "21:00 öncesinde uyarır mısın?",
+    "input": "Plan: 21:00 yoga.",
+    "output": "Saat 20:30'de yoga için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 13:00 bisiklet.",
+    "output": "Bugün bisiklet planın saat 13:00'de."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 20:30 ekip toplantısı.",
+    "output": "Bugün saat 20:30'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün yapılacak son planım ne?",
+    "input": "Takvim: 21:00 film.",
+    "output": "Bugünün son planı saat 21:00'de film izlemek."
+  },
+  {
+    "instruction": "tenis yapmayı unutursam hatırlat.",
+    "input": "Plan: 17:00 tenis.",
+    "output": "Saat 16:30'de tenis için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Elif. Plan: 14:30 müşteri takibi.",
+    "output": "Elif, bugün saat 14:30'de müşteri takibi planın bulunuyor."
+  },
+  {
+    "instruction": "fitness için beni hatırlat.",
+    "input": "Plan: 18:30 fitness.",
+    "output": "Saat 18:00'de fitness için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün değerlendirme toplantısım var mı?",
+    "input": "Takvim: 13:00 değerlendirme toplantısı.",
+    "output": "Evet. Saat 13:00'de değerlendirme toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 13:00 pilates.",
+    "output": "Bugün pilates planın saat 13:00'de."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 12:30 yönetim toplantısı, 15:30 müşteri toplantısı, 17:00 spor salonu.",
+    "output": "Bugün 12:30, 15:30 ve 17:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 10:00 ekip toplantısı, 13:30 müşteri toplantısı, 17:30 spor salonu.",
+    "output": "Programın dolu görünüyor: 10:00 ekip toplantısı, 13:30 müşteri toplantısı ve 17:30 spor salonu."
+  },
+  {
+    "instruction": "16:30 öncesinde uyarır mısın?",
+    "input": "Plan: 16:30 değerlendirme toplantısı.",
+    "output": "Saat 16:00'de değerlendirme toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 09:30 değerlendirme toplantısı, 13:00 haftalık toplantı, 20:30 bisiklet.",
+    "output": "Bugün 09:30, 13:00 ve 20:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün dinlenmek için zamanım var mı?",
+    "input": "Takvim: öğleden sonra boşluk.",
+    "output": "Evet. Öğleden sonra dinlenmek için biraz boş zamanın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Can. Plan: 10:30 proje toplantısı.",
+    "output": "Can, bugün saat 10:30'de proje toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 19:00 kod geliştirme.",
+    "output": "Mehmet, bugün saat 19:00'de kod geliştirme planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Esra. Plan: 19:00 koşu.",
+    "output": "Esra, bugün saat 19:00'de koşu planın bulunuyor."
+  },
+  {
+    "instruction": "14:00 öncesinde uyarır mısın?",
+    "input": "Plan: 14:00 değerlendirme toplantısı.",
+    "output": "Saat 13:30'de değerlendirme toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 11:30 değerlendirme toplantısı, 13:00 yönetim toplantısı, 19:00 yüzme.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Esra. Plan: 08:00 ekip toplantısı.",
+    "output": "Esra, bugün saat 08:00'de ekip toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Esra. Plan: 10:30 planlama toplantısı.",
+    "output": "Esra, bugün saat 10:30'de planlama toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: araştırma, sunum hazırlığı.",
+    "output": "Öncelikle araştırma üzerinde çalışmanı, ardından sunum hazırlığıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Pazar günü toplantım kaçta?",
+    "input": "Takvim: 10:30 ekip toplantısı.",
+    "output": "Evet. Saat 10:30'de ekip toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 16:00 yönetim toplantısı.",
+    "output": "Bugün saat 16:00'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: belge hazırlama, araştırma.",
+    "output": "Öncelikle belge hazırlama üzerinde çalışmanı, ardından araştırmayi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Pazartesi günü toplantım kaçta?",
+    "input": "Takvim: 12:30 müşteri toplantısı.",
+    "output": "Evet. Saat 12:30'de müşteri toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 15:30 yönetim toplantısı.",
+    "output": "Saat 15:00'de yönetim toplantısın için hazırlanmaya başlamalısın, toplantı 15:30'de."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:30 değerlendirme toplantısı, 15:00 haftalık toplantı, 16:30 fitness.",
+    "output": "Programın dolu görünüyor: 09:30 değerlendirme toplantısı, 15:00 haftalık toplantı ve 16:30 fitness."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "tenis yapmayı unutursam hatırlat.",
+    "input": "Plan: 17:00 tenis.",
+    "output": "Bugün tenis planın saat 17:00'de."
+  },
+  {
+    "instruction": "Öğleden sonra planım ne?",
+    "input": "Plan: 13:00 rapor yazımı, 16:00 müşteri araması.",
+    "output": "Öğleden sonra saat 13:00'te rapor yazımı ve 16:00'da müşteri araması planın var."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Elif. Plan: 19:30 araştırma.",
+    "output": "Elif, bugün saat 19:30'de araştırma planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: e-posta yazışması, araştırma.",
+    "output": "Öncelikle e-posta yazışması üzerinde çalışmanı, ardından araştırmayi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 08:30 müşteri toplantısı, 14:00 değerlendirme toplantısı, 18:00 futbol.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "17:30 öncesinde uyarır mısın?",
+    "input": "Plan: 17:30 yüzme.",
+    "output": "Saat 17:00'de yüzme için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 11:00 değerlendirme toplantısı, 15:00 ekip toplantısı, 19:00 yüzme.",
+    "output": "Bugün 11:00, 15:00 ve 19:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 16:00 fitness.",
+    "output": "Saat 15:30'de fitness için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 10:00 proje toplantısı.",
+    "output": "Saat 09:30'de proje toplantısın için hazırlanmaya başlamalısın, toplantı 10:00'de."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: belge hazırlama, makale yazımı.",
+    "output": "Bugün belge hazırlama ve makale yazımı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "strateji toplantısı için beni hatırlat.",
+    "input": "Plan: 19:30 strateji toplantısı.",
+    "output": "Saat 19:00'de strateji toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: belge hazırlama, makale yazımı.",
+    "output": "Bugün belge hazırlama ve makale yazımı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: belge hazırlama, kod geliştirme.",
+    "output": "Bugün belge hazırlama ve kod geliştirme görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, makale yazımı.",
+    "output": "Bugünkü görevlerin: sunum hazırlığı ve makale yazımı."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 16:00 strateji toplantısı.",
+    "output": "Evet. Saat 16:00'de strateji toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 10:30 yönetim toplantısı.",
+    "output": "Saat 10:00'de yönetim toplantısın için hazırlanmaya başlamalısın, toplantı 10:30'de."
+  },
+  {
+    "instruction": "Bugün strateji toplantısım var mı?",
+    "input": "Takvim: 18:30 strateji toplantısı.",
+    "output": "Bugün saat 18:30'de strateji toplantısın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Berkay. Plan: 12:30 e-posta yazışması.",
+    "output": "Berkay, bugün saat 12:30'de e-posta yazışması planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: toplantı notu, müşteri takibi.",
+    "output": "Bugün toplantı notu ve müşteri takibi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 15:30 proje toplantısı.",
+    "output": "Saat 15:00'de proje toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "yoga yapmayı unutursam hatırlat.",
+    "input": "Plan: 16:30 yoga.",
+    "output": "Evet. Saat 16:30'de yoga planın var."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 17:00 bisiklet.",
+    "output": "Evet. Saat 17:00'de bisiklet planın var."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 08:30 strateji toplantısı, 14:00 proje toplantısı, 17:00 yoga.",
+    "output": "Bugün 08:30, 14:00 ve 17:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün neyi tamamlamam gerekiyor?",
+    "input": "Todo: rapor teslimi.",
+    "output": "Bugün rapor teslimini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "12:30 öncesinde uyarır mısın?",
+    "input": "Plan: 12:30 planlama toplantısı.",
+    "output": "Saat 12:00'de planlama toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün yapılacak ilk toplantı ne zaman?",
+    "input": "Takvim: 09:30 toplantı.",
+    "output": "Bugünkü ilk toplantın saat 09:30'da."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 19:30 bisiklet.",
+    "output": "Saat 19:00'de bisiklet için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 15:00 basketbol.",
+    "output": "Evet. Saat 15:00'de basketbol planın var."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 08:00 planlama toplantısı, 15:00 müşteri toplantısı, 16:00 pilates.",
+    "output": "Bugün 08:00, 15:00 ve 16:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 13:00 tenis.",
+    "output": "Evet. Saat 13:00'de tenis planın var."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 12:00 strateji toplantısı.",
+    "output": "Evet. Saat 12:00'de strateji toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 14:00 yoga.",
+    "output": "Saat 13:30'de yoga için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 08:00 proje toplantısı.",
+    "output": "Mehmet, bugün saat 08:00'de proje toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "17:00 öncesinde uyarır mısın?",
+    "input": "Plan: 17:00 yüzme.",
+    "output": "Saat 16:30'de yüzme için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Berkay. Plan: 09:30 fitness.",
+    "output": "Berkay, bugün saat 09:30'de fitness planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün arkadaşlarımla buluşacak mıyım?",
+    "input": "Takvim: 20:30 arkadaş buluşması.",
+    "output": "Evet. Saat 20:30'da arkadaşlarınla buluşma planın var."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 13:00 yönetim toplantısı.",
+    "output": "Bugün saat 13:00'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: ödev teslimi, belge hazırlama.",
+    "output": "Bugünkü görevlerin: ödev teslimi ve belge hazırlama."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 14:30 ekip toplantısı.",
+    "output": "Bugün saat 14:30'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: belge hazırlama, toplantı notu.",
+    "output": "Bugünkü görevlerin: belge hazırlama ve toplantı notu."
+  },
+  {
+    "instruction": "Bugün ders çalışmam gerekiyor mu?",
+    "input": "Todo: sınav hazırlığı.",
+    "output": "Evet. Bugün sınav hazırlığı için ders çalışman gerekiyor."
+  },
+  {
+    "instruction": "Pazartesi günü toplantım kaçta?",
+    "input": "Takvim: 20:30 planlama toplantısı.",
+    "output": "Saat 20:00'de planlama toplantısın için hazırlanmaya başlamalısın, toplantı 20:30'de."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 16:00 planlama toplantısı.",
+    "output": "Bugün saat 16:00'de planlama toplantısın var."
+  },
+  {
+    "instruction": "koşu için beni hatırlat.",
+    "input": "Plan: 17:00 koşu.",
+    "output": "Saat 16:30'de koşu için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Berkay. Plan: 21:00 müşteri toplantısı.",
+    "output": "Berkay, bugün saat 21:00'de müşteri toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: toplantı notu, sunum hazırlığı.",
+    "output": "Öncelikle toplantı notu üzerinde çalışmanı, ardından sunum hazırlığıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 10:30 haftalık toplantı, 13:00 proje toplantısı, 20:00 basketbol.",
+    "output": "Bugün 10:30, 13:00 ve 20:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün erken yatmam gerekiyor mu?",
+    "input": "Takvim: yarın 06:00 alarm.",
+    "output": "Evet. Yarın erken kalkman gerektiği için bu akşam erken yatman iyi olabilir."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: araştırma, e-posta yazışması.",
+    "output": "Bugünkü görevlerin: araştırma ve e-posta yazışması."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Can. Plan: 16:30 ödev teslimi.",
+    "output": "Can, bugün saat 16:30'de ödev teslimi planın bulunuyor."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 20:00 fitness.",
+    "output": "Bugün fitness planın saat 20:00'de."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 10:00 ekip toplantısı.",
+    "output": "Bugün saat 10:00'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: ödev teslimi, haftalık rapor.",
+    "output": "Bugün ödev teslimi ve haftalık rapor görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, proje raporu.",
+    "output": "Bugünkü görevlerin: sunum hazırlığı ve proje raporu."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 17:00 ekip toplantısı.",
+    "output": "Saat 16:30'de ekip toplantısın için hazırlanmaya başlamalısın, toplantı 17:00'de."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugün yürüyüş için uygun zamanım var mı?",
+    "input": "Takvim: 17:00 sonrası boş.",
+    "output": "Evet. Saat 17:00'den sonra yürüyüş için uygun zamanın var."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: sınav hazırlığı, belge hazırlama.",
+    "output": "Bugünkü görevlerin: sınav hazırlığı ve belge hazırlama."
+  },
+  {
+    "instruction": "Bugün planlama toplantısım var mı?",
+    "input": "Takvim: 12:30 planlama toplantısı.",
+    "output": "Bugün saat 12:30'de planlama toplantısın var."
+  },
+  {
+    "instruction": "18:00 öncesinde uyarır mısın?",
+    "input": "Plan: 18:00 bisiklet.",
+    "output": "Saat 17:30'de bisiklet için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 11:30 planlama toplantısı, 15:00 haftalık toplantı, 19:00 basketbol.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: araştırma, ödev teslimi.",
+    "output": "Bugün araştırma ve ödev teslimi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 15:00 yoga.",
+    "output": "Saat 14:30'de yoga için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Yoğun program.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "planlama toplantısı için beni hatırlat.",
+    "input": "Plan: 13:00 planlama toplantısı.",
+    "output": "Saat 12:30'de planlama toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 10:00 proje toplantısı, 14:30 planlama toplantısı, 18:30 bisiklet.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün ekip toplantısım var mı?",
+    "input": "Takvim: 08:00 ekip toplantısı.",
+    "output": "Evet. Saat 08:00'de ekip toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Elif. Plan: 18:30 müşteri toplantısı.",
+    "output": "Elif, bugün saat 18:30'de müşteri toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: kod geliştirme, makale yazımı.",
+    "output": "Bugünkü görevlerin: kod geliştirme ve makale yazımı."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 12:30 ödev teslimi.",
+    "output": "Ali, bugün saat 12:30'de ödev teslimi planın bulunuyor."
+  },
+  {
+    "instruction": "yüzme için beni hatırlat.",
+    "input": "Plan: 14:00 yüzme.",
+    "output": "Saat 13:30'de yüzme için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: haftalık rapor, e-posta yazışması.",
+    "output": "Bugünkü görevlerin: haftalık rapor ve e-posta yazışması."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 18:00 basketbol.",
+    "output": "Saat 17:30'de basketbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Öğle arasında planım var mı?",
+    "input": "Takvim: 12:30 öğle yemeği.",
+    "output": "Evet. Saat 12:30'da öğle yemeği planın var."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 17:00 planlama toplantısı.",
+    "output": "Saat 16:30'de planlama toplantısın için hazırlanmaya başlamalısın, toplantı 17:00'de."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: sunum hazırlığı, sınav hazırlığı.",
+    "output": "Öncelikle sunum hazırlığı üzerinde çalışmanı, ardından sınav hazırlığıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:00 müşteri toplantısı, 13:30 yönetim toplantısı, 19:30 yüzme.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 16:30 pilates.",
+    "output": "Evet. Saat 16:30'de pilates planın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 20:00 makale yazımı.",
+    "output": "Mehmet, bugün saat 20:00'de makale yazımı planın bulunuyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: araştırma, toplantı notu.",
+    "output": "Öncelikle araştırma üzerinde çalışmanı, ardından toplantı notuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugün yoga planım var mı?",
+    "input": "Plan: 16:00 yoga.",
+    "output": "Evet. Saat 16:00'de yoga planın var."
+  },
+  {
+    "instruction": "Bugünkü ilk görevim ne?",
+    "input": "Plan: 09:00 rapor hazırlama.",
+    "output": "Bugünkü ilk görevin saat 09:00'da rapor hazırlamak."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Boş gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 11:00 ekip toplantısı, 14:00 yönetim toplantısı, 17:00 spor salonu.",
+    "output": "Programın dolu görünüyor: 11:00 ekip toplantısı, 14:00 yönetim toplantısı ve 17:00 spor salonu."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 08:30 haftalık toplantı.",
+    "output": "Saat 08:00'de haftalık toplantın için hazırlanmaya başlamalısın, toplantı 08:30'de."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: makale yazımı, araştırma.",
+    "output": "Bugün makale yazımı ve araştırma görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 13:00 fitness.",
+    "output": "Saat 12:30'de fitness için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün bisiklet planım var mı?",
+    "input": "Plan: 17:00 bisiklet.",
+    "output": "Saat 16:30'de bisiklet için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Berkay. Plan: 20:00 makale yazımı.",
+    "output": "Berkay, bugün saat 20:00'de makale yazımı planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: e-posta yazışması, sınav hazırlığı.",
+    "output": "Öncelikle e-posta yazışması üzerinde çalışmanı, ardından sınav hazırlığıyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Burak. Plan: 12:30 bisiklet.",
+    "output": "Burak, bugün saat 12:30'de bisiklet planın bulunuyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 14:30 ekip toplantısı.",
+    "output": "Bugün saat 14:30'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugün kaç toplantım var?",
+    "input": "Takvim: 10:00 ekip toplantısı, 16:00 proje toplantısı.",
+    "output": "Bugün iki toplantın var: 10:00 ve 16:00."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: belge hazırlama, haftalık rapor.",
+    "output": "Öncelikle belge hazırlama üzerinde çalışmanı, ardından haftalık raporyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "yoga için beni hatırlat.",
+    "input": "Plan: 18:00 yoga.",
+    "output": "Saat 17:30'de yoga için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "pilates için beni hatırlat.",
+    "input": "Plan: 15:30 pilates.",
+    "output": "Saat 15:00'de pilates için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 18:00 fitness.",
+    "output": "Saat 17:30'de fitness için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 10:00 proje toplantısı, 13:30 haftalık toplantı, 17:30 tenis.",
+    "output": "Programın dolu görünüyor: 10:00 proje toplantısı, 13:30 haftalık toplantı ve 17:30 tenis."
+  },
+  {
+    "instruction": "Bugün erken çıkmam gereken bir yer var mı?",
+    "input": "Takvim: 17:30 randevu.",
+    "output": "Evet. Saat 17:30'da bir randevun var."
+  },
+  {
+    "instruction": "Bugün değerlendirme toplantısım var mı?",
+    "input": "Takvim: 18:30 değerlendirme toplantısı.",
+    "output": "Evet. Saat 18:30'de değerlendirme toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: e-posta yazışması, belge hazırlama.",
+    "output": "Bugünkü görevlerin: e-posta yazışması ve belge hazırlama."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: ödev teslimi, kod geliştirme.",
+    "output": "Bugün ödev teslimi ve kod geliştirme görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Pazartesi günü toplantım kaçta?",
+    "input": "Takvim: 09:30 strateji toplantısı.",
+    "output": "Evet. Saat 09:30'de strateji toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 11:30 yönetim toplantısı.",
+    "output": "Mehmet, bugün saat 11:30'de yönetim toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 15:00 haftalık toplantı.",
+    "output": "Bugün saat 15:00'de haftalık toplantın var."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 09:30 haftalık toplantı.",
+    "output": "Evet. Saat 09:30'de haftalık toplantın bulunuyor."
+  },
+  {
+    "instruction": "19:30 öncesinde uyarır mısın?",
+    "input": "Plan: 19:30 tenis.",
+    "output": "Saat 19:00'de tenis için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Küçük hedefler belirleyerek güne başlamak motivasyonunu artırabilir."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 13:30 basketbol.",
+    "output": "Saat 13:00'de basketbol için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "basketbol yapmayı unutursam hatırlat.",
+    "input": "Plan: 19:30 basketbol.",
+    "output": "Bugün basketbol planın saat 19:30'de."
+  },
+  {
+    "instruction": "yüzme yapmayı unutursam hatırlat.",
+    "input": "Plan: 16:30 yüzme.",
+    "output": "Saat 16:00'de yüzme için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 19:30 futbol.",
+    "output": "Ali, bugün saat 19:30'de futbol planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: sunum hazırlığı, sınav hazırlığı.",
+    "output": "Bugün sunum hazırlığı ve sınav hazırlığı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: makale yazımı, müşteri takibi.",
+    "output": "Bugün makale yazımı ve müşteri takibi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Yarın sabah erken kalkmam gerekiyor mu?",
+    "input": "Takvim: 07:30 uçuş.",
+    "output": "Evet. Yarın saat 07:30'da uçuşun var, erken kalkman gerekiyor."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 08:30 haftalık toplantı, 14:30 değerlendirme toplantısı, 16:30 basketbol.",
+    "output": "Bugün 08:30, 14:30 ve 16:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Zeynep. Plan: 17:30 bisiklet.",
+    "output": "Zeynep, bugün saat 17:30'de bisiklet planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: araştırma, proje raporu.",
+    "output": "Öncelikle araştırma üzerinde çalışmanı, ardından proje raporuyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün için bir önerin var mı?",
+    "input": "Boş zaman: 2 saat.",
+    "output": "Kısa yürüyüşler zihnini tazeleyebilir ve verimliliğini artırabilir."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 11:30 müşteri toplantısı, 14:00 ekip toplantısı, 18:30 spor salonu.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 13:30 yönetim toplantısı.",
+    "output": "Bugün saat 13:30'de yönetim toplantısın var."
+  },
+  {
+    "instruction": "Bugün planlama toplantısım var mı?",
+    "input": "Takvim: 17:00 planlama toplantısı.",
+    "output": "Saat 16:30'de planlama toplantısın için hazırlanmaya başlamalısın, toplantı 17:00'de."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Zeynep. Plan: 08:30 ödev teslimi.",
+    "output": "Zeynep, bugün saat 08:30'de ödev teslimi planın bulunuyor."
+  },
+  {
+    "instruction": "16:00 öncesinde uyarır mısın?",
+    "input": "Plan: 16:00 strateji toplantısı.",
+    "output": "Saat 15:30'de strateji toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 12:00 değerlendirme toplantısı, 15:00 yönetim toplantısı, 17:30 spor salonu.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Orta yoğunlukta gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Toplantımı hatırlatır mısın?",
+    "input": "Takvim: 13:30 değerlendirme toplantısı.",
+    "output": "Evet. Saat 13:30'de değerlendirme toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Salı günü toplantım kaçta?",
+    "input": "Takvim: 17:00 değerlendirme toplantısı.",
+    "output": "Evet. Saat 17:00'de değerlendirme toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Can. Plan: 20:30 pilates.",
+    "output": "Can, bugün saat 20:30'de pilates planın bulunuyor."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: makale yazımı, araştırma.",
+    "output": "Bugün makale yazımı ve araştırma görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: e-posta yazışması, kod geliştirme.",
+    "output": "Bugün e-posta yazışması ve kod geliştirme görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 13:00 bisiklet.",
+    "output": "Bugün bisiklet planın saat 13:00'de."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 17:00 ekip toplantısı.",
+    "output": "Bugün saat 17:00'de ekip toplantısın var."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 11:30 yoga.",
+    "output": "Mehmet, bugün saat 11:30'de yoga planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 10:00 strateji toplantısı, 15:30 yönetim toplantısı, 20:00 koşu.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Can. Plan: 10:30 tenis.",
+    "output": "Can, bugün saat 10:30'de tenis planın bulunuyor."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: müşteri takibi, sunum hazırlığı.",
+    "output": "Bugün müşteri takibi ve sunum hazırlığı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 11:30 proje toplantısı.",
+    "output": "Bugün saat 11:30'de proje toplantısın var."
+  },
+  {
+    "instruction": "Perşembe günü toplantım kaçta?",
+    "input": "Takvim: 21:00 haftalık toplantı.",
+    "output": "Saat 20:30'de haftalık toplantın için hazırlanmaya başlamalısın, toplantı 21:00'de."
+  },
+  {
+    "instruction": "Bugünkü programım nasıl?",
+    "input": "Takvim: 09:30 ekip toplantısı, 15:30 ekip toplantısı, 20:00 tenis.",
+    "output": "Bugün yoğun bir günün var. Molalar vermeyi unutma."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 19:00 tenis.",
+    "output": "Saat 18:30'de tenis için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Mehmet. Plan: 13:00 spor salonu.",
+    "output": "Mehmet, bugün saat 13:00'de spor salonu planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 18:00 futbol.",
+    "output": "Bugün futbol planın saat 18:00'de."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 15:00 bisiklet.",
+    "output": "Saat 14:30'de bisiklet için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Ali. Plan: 14:00 yoga.",
+    "output": "Ali, bugün saat 14:00'de yoga planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: ödev teslimi, proje raporu.",
+    "output": "Bugün ödev teslimi ve proje raporu görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün spor var mı?",
+    "input": "Plan: 15:30 tenis.",
+    "output": "Bugün tenis planın saat 15:30'de."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: toplantı notu, haftalık rapor.",
+    "output": "Öncelikle toplantı notu üzerinde çalışmanı, ardından haftalık raporyi tamamlamanı öneririm."
+  },
+  {
+    "instruction": "Bugün pilates planım var mı?",
+    "input": "Plan: 15:30 pilates.",
+    "output": "Bugün pilates planın saat 15:30'de."
+  },
+  {
+    "instruction": "Bugün yapmam gereken en zor iş ne?",
+    "input": "Görev: proje raporu.",
+    "output": "Bugün en zor görevin proje raporunu tamamlamak olabilir."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Pomodoro tekniğiyle çalışmayı deneyebilirsin: 25 dakika çalış, 5 dakika mola ver."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 13:00 spor salonu.",
+    "output": "Saat 12:30'de spor salonu için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün kendimi nasıl motive edebilirim?",
+    "input": "Boş gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "19:30 öncesinde uyarır mısın?",
+    "input": "Plan: 19:30 haftalık toplantı.",
+    "output": "Saat 19:00'de haftalık toplantı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Nasıl daha iyi bir gün geçirebilirim?",
+    "input": "Boş gün.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Yapılacaklar listemde ne var?",
+    "input": "Todo: sınav hazırlığı, makale yazımı.",
+    "output": "Bugün sınav hazırlığı ve makale yazımı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "fitness yapmayı unutursam hatırlat.",
+    "input": "Plan: 16:30 fitness.",
+    "output": "Bugün fitness planın saat 16:30'de."
+  },
+  {
+    "instruction": "En önemli görevim ne?",
+    "input": "Todo: proje raporu, belge hazırlama.",
+    "output": "Bugünkü görevlerin: proje raporu ve belge hazırlama."
+  },
+  {
+    "instruction": "Bugün kendime hedef koymalı mıyım?",
+    "input": "Boş gün.",
+    "output": "Bugün daha verimli olmak için küçük bir hedef belirleyebilirsin."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: belge hazırlama, sınav hazırlığı.",
+    "output": "Bugün belge hazırlama ve sınav hazırlığı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: sınav hazırlığı, e-posta yazışması.",
+    "output": "Bugün sınav hazırlığı ve e-posta yazışması görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Burak. Plan: 14:30 makale yazımı.",
+    "output": "Burak, bugün saat 14:30'de makale yazımı planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: e-posta yazışması, toplantı notu.",
+    "output": "Bugün e-posta yazışması ve toplantı notu görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Elif. Plan: 10:00 spor salonu.",
+    "output": "Elif, bugün saat 10:00'de spor salonu planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün planlama toplantısım var mı?",
+    "input": "Takvim: 18:30 planlama toplantısı.",
+    "output": "Evet. Saat 18:30'de planlama toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Bugün ne kadar meşgulüm?",
+    "input": "Takvim: 09:00 proje toplantısı, 14:00 müşteri toplantısı, 18:30 spor salonu.",
+    "output": "Bugün 09:00, 14:00 ve 18:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: araştırma, müşteri takibi.",
+    "output": "Bugün araştırma ve müşteri takibi görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "müşteri toplantısı için beni hatırlat.",
+    "input": "Plan: 14:00 müşteri toplantısı.",
+    "output": "Saat 13:30'de müşteri toplantısı için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 12:00 planlama toplantısı.",
+    "output": "Saat 11:30'de planlama toplantısın için hazırlanmaya başlamalısın, toplantı 12:00'de."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 14:30 strateji toplantısı.",
+    "output": "Saat 14:00'de strateji toplantısın için hazırlanmaya başlamalısın, toplantı 14:30'de."
+  },
+  {
+    "instruction": "Pazar günü toplantım kaçta?",
+    "input": "Takvim: 11:00 ekip toplantısı.",
+    "output": "Evet. Saat 11:00'de ekip toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 15:30 bisiklet.",
+    "output": "Saat 15:00'de bisiklet için hazırlanmaya başlamalısın."
+  },
+  {
+    "instruction": "Bugün boş zamanım var mı?",
+    "input": "Takvim: 11:00 strateji toplantısı, 13:30 ekip toplantısı, 19:30 koşu.",
+    "output": "Bugün 11:00, 13:30 ve 19:30 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Akşam spor yapmayı unutursam hatırlat.",
+    "input": "Plan: 19:00 koşu.",
+    "output": "Saat 18:45'te koşu planın için sana hatırlatma göndereceğim."
+  },
+  {
+    "instruction": "Bugün yoga planım var mı?",
+    "input": "Plan: 19:00 yoga.",
+    "output": "Evet. Saat 19:00'de yoga planın var."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 16:30 proje toplantısı.",
+    "output": "Evet. Saat 16:30'de proje toplantısın bulunuyor."
+  },
+  {
+    "instruction": "Spor saatimi hatırlatır mısın?",
+    "input": "Plan: 19:00 tenis.",
+    "output": "Bugün tenis planın saat 19:00'de."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 08:30 ekip toplantısı, 15:30 değerlendirme toplantısı, 21:00 koşu.",
+    "output": "Bugün 08:30, 15:30 ve 21:00 olmak üzere üç planın var. Programın oldukça yoğun."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Elif. Plan: 08:00 haftalık rapor.",
+    "output": "Elif, bugün saat 08:00'de haftalık rapor planın bulunuyor."
+  },
+  {
+    "instruction": "Bugün strateji toplantısım var mı?",
+    "input": "Takvim: 21:00 strateji toplantısı.",
+    "output": "Bugün saat 21:00'de strateji toplantısın var."
+  },
+  {
+    "instruction": "Bugün neyi bitirmem gerekiyor?",
+    "input": "Todo: sunum hazırlığı, sınav hazırlığı.",
+    "output": "Bugün sunum hazırlığı ve sınav hazırlığı görevlerini tamamlaman gerekiyor."
+  },
+  {
+    "instruction": "Bugünkü programımı söyler misin?",
+    "input": "Kullanıcı: Zeynep. Plan: 09:30 müşteri toplantısı.",
+    "output": "Zeynep, bugün saat 09:30'de müşteri toplantısı planın bulunuyor."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Yoğun program.",
+    "output": "Önce zor görevleri tamamlamak gün içinde daha rahat hissettirer."
+  },
+  {
+    "instruction": "Bugün çok yoğun muyum?",
+    "input": "Takvim: 09:00 toplantı, 11:00 toplantı, 14:00 toplantı.",
+    "output": "Evet. Bugün üç toplantın var ve programın oldukça yoğun."
+  },
+  {
+    "instruction": "Planım başlamadan önce hatırlat.",
+    "input": "Plan: 17:00 fitness.",
+    "output": "Saat 16:30'de fitness için sana hatırlatma yapacağım."
+  },
+  {
+    "instruction": "Bugün strateji toplantısım var mı?",
+    "input": "Takvim: 09:30 strateji toplantısı.",
+    "output": "Saat 09:00'de strateji toplantısın için hazırlanmaya başlamalısın, toplantı 09:30'de."
+  },
+  {
+    "instruction": "Daha verimli olmak için ne yapmalıyım?",
+    "input": "Boş gün.",
+    "output": "Günün başında en önemli 3 görevi belirlemek odaklanmanı kolaylaştırır."
+  },
+  {
+    "instruction": "Yaklaşan toplantım ne zaman?",
+    "input": "Takvim: 16:00 değerlendirme toplantısı.",
+    "output": "Saat 15:30'de değerlendirme toplantısın için hazırlanmaya başlamalısın, toplantı 16:00'de."
+  },
+  {
+    "instruction": "Bugün hangi görevleri tamamlamalıyım?",
+    "input": "Todo: sınav hazırlığı, proje raporu.",
+    "output": "Bugünkü görevlerin: sınav hazırlığı ve proje raporu."
+  }
+]

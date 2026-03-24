@@ -1,6 +1,12 @@
-qwen-akilli-ayna/
+backend/qwen3b-base/
+backend/qwen-akilli-ayna/
+backend/qwen3b-akilli-ayna/checkpoint-*/
 __pycache__/
 *.pyc
-qwen-akilli-ayna/
-__pycache__/
-*.pyc
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/build/
+app/.packages
+.DS_Store
+*.log

@@ -1,0 +1,153 @@
+{
+  "__inputs": [],
+  "__requires": [
+    { "type": "grafana", "id": "grafana", "name": "Grafana", "version": "9.0.0" },
+    { "type": "datasource", "id": "prometheus", "name": "Prometheus", "version": "1.0.0" }
+  ],
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [
+          { "color": "green", "value": null }, { "color": "red", "value": 80 }
+        ]}, "unit": "none" },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 0, "y": 0 },
+      "id": 1,
+      "options": { "colorMode": "background", "graphMode": "none", "justifyMode": "center", "orientation": "auto", "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }, "textMode": "auto" },
+      "title": "Toplam Sesli Komut",
+      "type": "stat",
+      "targets": [{ "expr": "sum(voice_requests_total)", "legendFormat": "Toplam", "refId": "A" }]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [
+          { "color": "green", "value": null }, { "color": "yellow", "value": 50 }, { "color": "red", "value": 100 }
+        ]}, "unit": "none" },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 4, "y": 0 },
+      "id": 2,
+      "options": { "colorMode": "background", "graphMode": "none", "justifyMode": "center", "orientation": "auto", "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }, "textMode": "auto" },
+      "title": "Engellenen Hallusinasyon",
+      "type": "stat",
+      "targets": [{ "expr": "hallucination_blocked_total", "legendFormat": "Engellenen", "refId": "A" }]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [
+          { "color": "red", "value": null }, { "color": "green", "value": 1 }
+        ]}, "mappings": [{ "options": { "0": { "text": "HAZIR DEGIL" }, "1": { "text": "HAZIR" } }, "type": "value" }] },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 8, "y": 0 },
+      "id": 3,
+      "options": { "colorMode": "background", "graphMode": "none", "justifyMode": "center", "orientation": "auto", "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }, "textMode": "auto" },
+      "title": "Model Durumu",
+      "type": "stat",
+      "targets": [{ "expr": "model_ready", "legendFormat": "Durum", "refId": "A" }]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "color": { "mode": "thresholds" }, "thresholds": { "mode": "absolute", "steps": [
+          { "color": "green", "value": null }, { "color": "yellow", "value": 1 }, { "color": "red", "value": 2 }
+        ]}, "unit": "s" },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 12, "y": 0 },
+      "id": 4,
+      "options": { "colorMode": "background", "graphMode": "area", "justifyMode": "center", "orientation": "auto", "reduceOptions": { "calcs": ["mean"], "fields": "", "values": false }, "textMode": "auto" },
+      "title": "Ort. Yanit Suresi",
+      "type": "stat",
+      "targets": [{ "expr": "rate(ai_response_seconds_sum[5m]) / rate(ai_response_seconds_count[5m])", "legendFormat": "Ortalama", "refId": "A" }]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "custom": { "lineWidth": 2 }, "color": { "mode": "palette-classic" } },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 4 },
+      "id": 5,
+      "options": { "legend": { "calcs": ["sum"], "displayMode": "table", "placement": "bottom" }, "tooltip": { "mode": "single", "sort": "none" } },
+      "title": "Sesli Komut Istekleri (5 dk)",
+      "type": "timeseries",
+      "targets": [
+        { "expr": "rate(voice_requests_total{status=\"success\"}[5m])", "legendFormat": "Basarili", "refId": "A" },
+        { "expr": "rate(voice_requests_total{status=\"no_task\"}[5m])", "legendFormat": "Gorev Yok", "refId": "B" },
+        { "expr": "rate(voice_requests_total{status=\"error\"}[5m])", "legendFormat": "Hata", "refId": "C" }
+      ]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "custom": { "lineWidth": 2 }, "color": { "mode": "palette-classic" }, "unit": "s" },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 4 },
+      "id": 6,
+      "options": { "legend": { "calcs": ["mean", "max"], "displayMode": "table", "placement": "bottom" }, "tooltip": { "mode": "single", "sort": "none" } },
+      "title": "AI Yanit Suresi (p50 / p95 / p99)",
+      "type": "timeseries",
+      "targets": [
+        { "expr": "histogram_quantile(0.50, rate(ai_response_seconds_bucket[5m]))", "legendFormat": "p50", "refId": "A" },
+        { "expr": "histogram_quantile(0.95, rate(ai_response_seconds_bucket[5m]))", "legendFormat": "p95", "refId": "B" },
+        { "expr": "histogram_quantile(0.99, rate(ai_response_seconds_bucket[5m]))", "legendFormat": "p99", "refId": "C" }
+      ]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "custom": { "lineWidth": 2 }, "color": { "mode": "palette-classic" } },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 12 },
+      "id": 7,
+      "options": { "legend": { "calcs": ["sum"], "displayMode": "table", "placement": "bottom" }, "tooltip": { "mode": "single", "sort": "none" } },
+      "title": "HTTP Istekleri - Endpoint Bazinda",
+      "type": "timeseries",
+      "targets": [
+        { "expr": "rate(http_requests_total{handler=\"/api/v1/voice/process\"}[5m])", "legendFormat": "voice/process", "refId": "A" },
+        { "expr": "rate(http_requests_total{handler=\"/api/v1/ai/infer\"}[5m])", "legendFormat": "ai/infer", "refId": "B" },
+        { "expr": "rate(http_requests_total{handler=\"/api/v1/ai/status\"}[5m])", "legendFormat": "ai/status", "refId": "C" }
+      ]
+    },
+    {
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "fieldConfig": {
+        "defaults": { "custom": { "lineWidth": 2 }, "color": { "mode": "palette-classic" } },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 12 },
+      "id": 8,
+      "options": { "legend": { "calcs": ["lastNotNull"], "displayMode": "table", "placement": "bottom" }, "tooltip": { "mode": "single", "sort": "none" } },
+      "title": "Hallusinasyon Engelleme (Kumulatif)",
+      "type": "timeseries",
+      "targets": [
+        { "expr": "hallucination_blocked_total", "legendFormat": "Engellenen", "refId": "A" },
+        { "expr": "sum(voice_requests_total)", "legendFormat": "Toplam Istek", "refId": "B" }
+      ]
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 36,
+  "style": "dark",
+  "tags": ["akilli-ayna", "tubitak"],
+  "templating": { "list": [] },
+  "time": { "from": "now-1h", "to": "now" },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Akilli Ayna AI - Sistem Izleme",
+  "uid": "akilli-ayna-monitoring",
+  "version": 1
+}

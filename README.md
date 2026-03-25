@@ -19,7 +19,7 @@ Gelistirici: Esra Kazan
 
 | Profil Olustur (Rol) | Ana Ekran | Gorevler |
 |---------------------|-----------|----------|
-| ![Profil Rol](screenshots/profil_olustur_rol.jpg) | ![Ana Ekran](screenshots/profil.jpg) | ![Gorevler](screenshots/gorev.jpg) |
+| ![Profil Rol](screenshots/profil_olustur_rol.jpg) | ![Ana Ekran](screenshots/anaekran.jpg) | ![Gorevler](screenshots/gorev.jpg) |
 
 ### Sistemin Calistigi Gosteriliyor
 

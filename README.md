@@ -1,108 +1,107 @@
 # Akilli Ayna AI Asistan
 
-TUBITAK 2209-A - Smart Mirror AI Assistant
-Firat University, 2025-2026
+TUBITAK 2209-A kapsaminda Firat Universitesi'nde gelistirilen yapay zeka destekli akilli ayna projesinin yazilim deposudur.
 
-Advisor: Doc. Dr. Sinem Akyol
-Coordinator: Sevval Kaya
-Developer: Berkay Parcal
-Developer: Esra Kazan
+Danisман: Doc. Dr. Sinem Akyol
+Koordinator: Sevval Kaya
+Gelistirici: Berkay Parcal
+Gelistirici: Esra Kazan
 
 ---
 
-# Screenshots
+# Ekran Goruntuleri
 
-### App Screens
+### Uygulama Ekranlari
 
-| Consent Screen | Welcome | Create Profile |
-|----------------|---------|---------------|
-| ![Consent](screenshots/consent.jpg) | ![Welcome](screenshots/welcome.jpg) | ![Create Profile 1](screenshots/create_profile_1.jpg) |
+| Izin Ekrani | Hosgeldin | Profil Olustur |
+|-------------|-----------|---------------|
+| ![Izin](screenshots/consent.jpg) | ![Hosgeldin](screenshots/welcome.jpg) | ![Profil 1](screenshots/create_profile_1.jpg) |
 
-| Create Profile (Role) | Dashboard | Tasks |
-|----------------------|-----------|-------|
-| ![Create Profile 2](screenshots/create_profile_2.jpg) | ![Dashboard](screenshots/dashboard.jpg) | ![Tasks](screenshots/tasks.jpg) |
+| Profil Olustur (Rol) | Ana Ekran | Gorevler |
+|---------------------|-----------|----------|
+| ![Profil 2](screenshots/create_profile_2.jpg) | ![Ana Ekran](screenshots/dashboard.jpg) | ![Gorevler](screenshots/tasks.jpg) |
 
-| Profile |
-|---------|
-| ![Profile](screenshots/profile.jpg) |
+| Profil |
+|--------|
+| ![Profil](screenshots/profile.jpg) |
 
-### System Running
+### Sistemin Calistigi Gosteriliyor
 
-| Flutter - AI Request & Response | Flutter - Voice Command |
-|--------------------------------|------------------------|
+| Flutter - AI Istegi ve Yaniti | Flutter - Sesli Komut |
+|------------------------------|----------------------|
 | ![Flutter Log 1](screenshots/flutter_log_1.png) | ![Flutter Log 2](screenshots/flutter_log_2.png) |
 
-| FastAPI - Requests | NGINX Status |
+| FastAPI - Istekler | NGINX Durumu |
 |-------------------|-------------|
 | ![FastAPI Log](screenshots/fastapi_log.png) | ![NGINX](screenshots/nginx_status.png) |
 
 ---
 
-# What is This Project?
+# Proje Nedir?
 
-This project has two parts:
+Bu proje iki parcadan olusmaktadir:
 
-1. Mobile app (app folder): Task management, profile management and voice assistant interface
-2. AI backend (backend folder): AI service that understands voice commands and generates responses
+1. Telefon uygulamasi (app klasoru): Gorev ekleme, profil yonetimi ve sesli asistan arayuzu
+2. Yapay zeka backend (backend klasoru): Sesli komutlari anlayan ve yanit ureten AI servisi
 
-The user presses the microphone button in the app and speaks. The app converts speech to text, sends it to the AI, and reads the AI response out loud.
-
----
-
-# How It Works
-
-```
-User speaks
-      |
-App converts voice to text (speech-to-text)
-      |
-Text is sent to AI backend (over HTTPS via NGINX)
-      |
-AI looks at the user's tasks and generates a response
-      |
-Response is read out loud (text-to-speech)
-```
+Kullanici telefon uygulamasindaki mikrofon butonuna basarak konusur. Uygulama sesi metne cevirir, yapay zekaya gonderir ve yapay zekanin yanitini sesli olarak okur.
 
 ---
 
-# Folder Structure
+# Nasil Calisir?
+
+```
+Kullanici konusur
+      |
+Uygulama sesi metne cevirir (speech-to-text)
+      |
+Metin yapay zekaya gonderilir (HTTPS uzerinden NGINX)
+      |
+Yapay zeka kullanicinin gorevlerine bakarak yanit uretir
+      |
+Yanit sesli olarak okunur (text-to-speech)
+```
+
+---
+
+# Klasor Yapisi
 
 ```
 AkilliAynaAsistanLLM/
-├── app/                        → Flutter mobile app
+├── app/                        → Flutter mobil uygulama
 ├── backend/
-│   ├── main.py                 → Main file to run
-│   ├── finetune_qwen3b.py      → Script used to train the model
-│   ├── dataset.json            → Training data (3350 Turkish examples)
-│   └── qwen3b-akilli-ayna/     → Fine-tuned model adapter
-├── archive/                    → Old experiments (for reference)
-├── screenshots/                → App screenshots
-├── requirements.txt            → Python dependencies
+│   ├── main.py                 → Calistirilacak ana dosya
+│   ├── finetune_qwen3b.py      → Modeli egitmek icin kullanilan script
+│   ├── dataset.json            → Egitim verisi (3350 Turkce ornek)
+│   └── qwen3b-akilli-ayna/     → Egitilmis model adaptoru
+├── archive/                    → Eski denemeler (referans amacli)
+├── screenshots/                → Uygulama ekran goruntuleri
+├── requirements.txt            → Python bagimliliklar
 └── README.md
 ```
 
 ---
 
-# Requirements
+# Gereksinimler
 
 - Python 3.11
-- Anaconda or Miniconda: https://www.anaconda.com
-- Flutter SDK 3.19 or higher: https://flutter.dev
-- NVIDIA GPU with at least 8GB VRAM (only needed for backend)
-- Android phone (to test the app)
+- Anaconda veya Miniconda: https://www.anaconda.com
+- Flutter SDK 3.19 veya uzeri: https://flutter.dev
+- NVIDIA ekran karti, en az 8GB VRAM (sadece backend icin)
+- Android telefon (uygulamayi test etmek icin)
 
 ---
 
-# Setup Steps
+# Kurulum Adimlari
 
-## 1. Clone the Repository
+## 1. Depoyu Indirin
 
 ```bash
 git clone https://github.com/RudblestThe2nd/AkilliAynaAsistanLLM.git
 cd AkilliAynaAsistanLLM
 ```
 
-## 2. Set Up Python Environment
+## 2. Python Ortamini Kurun
 
 ```bash
 conda create -n TubitakLLM python=3.11
@@ -110,9 +109,9 @@ conda activate TubitakLLM
 pip install -r requirements.txt
 ```
 
-## 3. Download the Base Model
+## 3. Temel Modeli Indirin
 
-The base model files are too large for GitHub so they are hosted on Hugging Face. Run:
+Model dosyalari cok buyuk oldugu icin GitHub'a koyulamadi. Hugging Face uzerinden indiriliyor:
 
 ```bash
 cd backend
@@ -125,9 +124,9 @@ snapshot_download(
 "
 ```
 
-This will download about 6GB and may take 20-60 minutes. When done, a folder called qwen3b-base will appear inside the backend folder.
+Yaklasik 6GB indirilecek, internet hiziniza gore 20-60 dakika surebilir. Islem bitince backend klasorunde qwen3b-base adli bir klasor olusacak.
 
-## 4. Run the Backend
+## 4. Backend'i Calistirin
 
 ```bash
 conda activate TubitakLLM
@@ -135,41 +134,46 @@ cd backend
 python main.py
 ```
 
-When you see this in the terminal, the backend is ready:
+Terminalde su yaziyi gordugunde backend hazir demektir:
 
 ```
 Model hazir!
 INFO: Uvicorn running on http://0.0.0.0:8000
 ```
 
-Do not close this terminal. It must keep running.
+Bu terminali kapatmayin, arka planda calismaya devam etmeli.
 
-## 5. Find Your IP Address
+## 5. IP Adresinizi Ogrenin
+
+Telefon uygulamasinin bilgisayardaki backend'e baglanabilmesi icin bilgisayarin IP adresini ogrenmeniz gerekiyor:
 
 ```bash
 hostname -I
 ```
 
-The first number is your IP. Example: 192.168.1.100
+Cikan ilk sayi IP adresinizdir. Ornek: 192.168.1.100
 
-## 6. Update App Settings
+## 6. Uygulama Ayarini Guncelleyin
 
-Open: app/lib/core/constants/api_constants.dart
+Su dosyayi acin: app/lib/core/constants/api_constants.dart
 
-Replace the IP with yours:
+Su satiri kendi IP adresinizle degistirin:
 
 ```dart
 static const String _devBaseUrl = 'https://192.168.1.100:8443';
 ```
 
-## 7. Install the App on Your Phone
+## 7. Uygulamayi Telefona Yukleyin
 
-Connect your phone via USB cable. On your phone:
-- Open Settings → About Phone
-- Tap "Build Number" 7 times (enables Developer Mode)
-- Go back → Developer Options → Enable "USB Debugging"
+Telefonu USB kablosuyla bilgisayara baglayin. Telefonda su adimlari izleyin:
 
-Then run:
+- Ayarlar uygulamasini acin
+- "Telefon hakkinda" bolumune gidin
+- "Derleme numarasi" satirina 7 kez dokunun (Gelistirici modu acilir)
+- Geri donup "Gelistirici secenekleri" bolumune girin
+- "USB hata ayiklama" secenegini acin
+
+Telefonu baglayip terminalde su komutu calistirin:
 
 ```bash
 cd app
@@ -177,56 +181,52 @@ flutter pub get
 flutter run
 ```
 
-The app will be installed and opened automatically.
+Uygulama otomatik olarak telefona yuklenecek ve acilacaktir.
 
 ---
 
-# How to Use the App
+# Uygulamayi Kullanmak
 
-When the app opens for the first time, you will see a consent screen explaining what permissions the app needs. Press "Onayliyorum ve Devam Ediyorum" to continue.
+Uygulama ilk acildiginda izin ekrani gorulur. "Onayliyorum ve Devam Ediyorum" butonuna basin.
 
-Then you will be asked to create a profile. Enter your name, a PIN code and your role (Admin, Member or Guest). Multiple family members can have separate profiles.
+Ardindan profil olusturmaniz istenir. Isminizi, bir PIN kodu ve rolunuzu girin. Birden fazla aile uyesi farkli profil olusturabilir.
 
-To add a task, go to the Tasks tab at the bottom and press the + button in the top right corner.
+Gorev eklemek icin alt menudeki Gorevler sekmesine gidin ve sag ustteki + butonuna basin.
 
-To use the voice assistant, press the microphone button on the home screen and speak. Release the button when done. The AI will respond out loud.
+Sesli asistani kullanmak icin ana sayfadaki mikrofon butonuna basin ve konusun. Butonu biraktiginizda uygulama dinlemeyi birakir ve yapay zeka yanit verir.
 
-Example voice commands:
-- "Bugun ne yapacagim" (What do I have today)
-- "Yarin programim ne" (What is my schedule tomorrow)
-- "Bu hafta ne var" (What is happening this week)
-- "Sabah planim nedir" (What is my morning plan)
-- "Gorev ekle yarin saat 10 toplanti" (Add task, meeting at 10 tomorrow)
-- "Hatirla aksam ilac al" (Remind me to take medicine tonight)
-- "15 Mart'ta ne var" (What is on March 15)
+Ornek sesli komutlar:
+
+- "Bugun ne yapacagim"
+- "Yarin programim ne"
+- "Bu hafta ne var"
+- "Sabah planim nedir"
+- "Gorev ekle yarin saat 10 toplanti"
+- "Hatirla aksam ilac al"
+- "15 Mart'ta ne var"
 
 ---
 
-# Frequently Asked Questions
+# Sik Sorulan Sorular
 
-App cannot connect to backend:
-Phone and computer must be on the same WiFi network. Check the IP address in api_constants.dart.
+Uygulama backend'e baglanamıyor:
+Telefon ve bilgisayar ayni WiFi aginda olmalidir. api_constants.dart dosyasindaki IP adresinin dogru oldugunu kontrol edin.
 
-Error downloading the model:
-You may need a Hugging Face account. Run:
-
-```bash
+Model indirme sirasinda hata aliyorum:
+Hugging Face hesabi acmaniz ve giris yapmaniz gerekebilir. Su komutu calistirin:
 python -c "from huggingface_hub import login; login()"
-```
 
-Go to the link that appears, create a token and paste it in the terminal.
+Uygulama telefona yuklenmiyor:
+USB Hata Ayiklama seceneginin acik oldugunden emin olun. Telefon ekrani acik ve kilitsiz olmalidir.
 
-App not installing on phone:
-Make sure USB Debugging is enabled and the phone screen is unlocked.
-
-AI gives wrong answers:
-Add tasks first from the Tasks tab, then ask the voice assistant. Without tasks, the AI will say there is no plan.
+Yapay zeka yanlis cevap veriyor:
+Once Gorevler sekmesinden gorev ekleyin, sonra sesli asistana sorun. Gorev olmadan "planin bulunmuyor" yaniti gelir.
 
 ---
 
-# API Example
+# API Ornegi
 
-While the backend is running, you can test it directly:
+Backend calisirken terminal uzerinden test edebilirsiniz:
 
 ```bash
 curl -k -X POST https://localhost:8443/api/v1/voice/process \
@@ -237,7 +237,7 @@ curl -k -X POST https://localhost:8443/api/v1/voice/process \
   }'
 ```
 
-Expected response:
+Beklenen yanit:
 
 ```json
 {
@@ -248,18 +248,18 @@ Expected response:
 
 ---
 
-# Technical Details
+# Teknik Bilgiler
 
-- Model: Qwen2.5-3B-Instruct, fine-tuned with QLoRA (4-bit quantization)
-- Training data: 3350 Turkish examples
-- Trainable parameters: 14.9M out of 3.1B (0.48%)
+- Model: Qwen2.5-3B-Instruct, QLoRA ile ince ayar yapilmistir
+- Egitim verisi: 3350 Turkce ornek
+- Egitilen parametre sayisi: 14.9M / 3.1B toplam (yuzde 0.48)
 - Backend: FastAPI + NGINX TLS proxy (port 8443)
-- Mobile: Flutter, Android
-- Database: SQLite
-- Speech recognition: speech_to_text package (Turkish)
-- Text to speech: flutter_tts package (Turkish)
-- Response time: ~700-1600ms
+- Mobil: Flutter, Android
+- Veritabani: SQLite
+- Ses tanima: speech_to_text paketi, Turkce
+- Ses sentezi: flutter_tts paketi, Turkce
+- Yanit suresi: yaklasik 700-1600ms
 
 ---
 
-TUBITAK 2209-A - Firat University - 2025-2026
+TUBITAK 2209-A - Firat Universitesi - 2025-2026

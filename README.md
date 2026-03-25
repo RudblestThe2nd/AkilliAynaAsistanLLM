@@ -257,3 +257,81 @@ Beklenen yanit:
 ---
 
 TUBITAK 2209-A - Firat Universitesi - 2025-2026
+
+---
+
+# Sistem Izleme (Prometheus + Grafana)
+
+Backend, Prometheus ile izlenmektedir. Asagidaki metrikler toplanmaktadir:
+
+| Metrik | Aciklama |
+|--------|----------|
+| voice_requests_total | Sesli komut istegi sayisi (basarili / gorev yok / hata) |
+| ai_response_seconds | AI yanit suresi histogrami (p50, p95, p99) |
+| hallucination_blocked_total | Hallusinasyon engellenen istek sayisi |
+| model_ready | Model hazir durumu (1=hazir, 0=hazir degil) |
+| voice_task_added_total | Sesle eklenen gorev sayisi |
+
+Prometheus metriklerine erismek icin backend calisirken:
+
+```bash
+curl http://localhost:8000/metrics
+```
+
+Grafana dashboard'u ice aktarmak icin:
+- Grafana'yi acin
+- Sol menu: Dashboards → Import
+- backend/grafana_dashboard.json dosyasini yukleyin
+- Datasource olarak Prometheus secin
+
+---
+
+# Veri Analizi
+
+SQLite veritabanindaki gorev ve kullanici verileri analiz edilmistir. Analiz scripti:
+
+```bash
+conda activate TubitakLLM
+cd backend
+python analiz.py --db /path/to/smart_mirror.db --out ./analiz_ciktilari
+```
+
+Veritabani yoksa script demo veriyle otomatik calisir.
+
+### Genel Bakis Paneli
+
+![Genel Bakis](screenshots/grafik1_genel_bakis.png)
+
+Yukardaki grafik asagidaki analizleri icermektedir:
+- Oncelik dagilimi (URGENT / HIGH / MEDIUM / LOW)
+- Kategoriye gore gorev sayisi
+- Genel tamamlanma orani
+- Saat dilimine gore gorev dagilimi
+- Aktif / tamamlanan oran
+- Kullanici rol dagilimi
+- Gune gore eklenen gorev sayisi trendi
+
+### Tamamlanma Analizi
+
+![Tamamlanma Analizi](screenshots/grafik2_tamamlanma_analizi.png)
+
+- Oncelik bazli tamamlanma orani karsilastirmasi
+- Kategori bazli tamamlanma orani (yatay bar)
+- Kullanici performans karsilastirmasi
+
+### Zaman Analizi
+
+![Zaman Analizi](screenshots/grafik3_zaman_analizi.png)
+
+- Saate gore gorev dagilimi (sabah / ogleden sonra / aksam / gece)
+- Haftanin gunune gore gorev dagilimi
+- Oncelik x Zaman dilimi yogunluk haritasi (heatmap)
+- Kullanici basina toplam / tamamlanan gorev karsilastirmasi
+
+### Istatistik Ozet
+
+Tam istatistik tablosu icin: istatistik_ozet.csv
+
+---
+
+TUBITAK 2209-A - Firat Universitesi - 2025-2026

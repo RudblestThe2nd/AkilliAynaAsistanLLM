@@ -15,21 +15,17 @@ Gelistirici: Esra Kazan
 
 | Izin Ekrani | Hosgeldin | Profil Olustur |
 |-------------|-----------|---------------|
-| ![Izin](screenshots/consent.jpg) | ![Hosgeldin](screenshots/welcome.jpg) | ![Profil 1](screenshots/create_profile_1.jpg) |
+| ![Izin](screenshots/izin.jpg) | ![Hosgeldin](screenshots/hosgeldin.jpg) | ![Profil Olustur](screenshots/profil_olustur.jpg) |
 
 | Profil Olustur (Rol) | Ana Ekran | Gorevler |
 |---------------------|-----------|----------|
-| ![Profil 2](screenshots/create_profile_2.jpg) | ![Ana Ekran](screenshots/dashboard.jpg) | ![Gorevler](screenshots/tasks.jpg) |
-
-| Profil |
-|--------|
-| ![Profil](screenshots/profile.jpg) |
+| ![Profil Rol](screenshots/profil_olustur_rol.jpg) | ![Ana Ekran](screenshots/profil.jpg) | ![Gorevler](screenshots/gorev.jpg) |
 
 ### Sistemin Calistigi Gosteriliyor
 
-| Flutter - AI Istegi ve Yaniti | Flutter - Sesli Komut |
-|------------------------------|----------------------|
-| ![Flutter Log 1](screenshots/flutter_log_1.png) | ![Flutter Log 2](screenshots/flutter_log_2.png) |
+| Flutter - AI Istegi ve Yaniti 1 | Flutter - AI Istegi ve Yaniti 2 | Flutter - Log |
+|--------------------------------|--------------------------------|--------------|
+| ![Flutter Log 1](screenshots/flutter_log_1.png) | ![Flutter Log 2](screenshots/flutter_log_2.png) | ![Flutter Log 3](screenshots/flutter_log_3.png) |
 
 | FastAPI - Istekler | NGINX Durumu |
 |-------------------|-------------|
@@ -145,8 +141,6 @@ Bu terminali kapatmayin, arka planda calismaya devam etmeli.
 
 ## 5. IP Adresinizi Ogrenin
 
-Telefon uygulamasinin bilgisayardaki backend'e baglanabilmesi icin bilgisayarin IP adresini ogrenmeniz gerekiyor:
-
 ```bash
 hostname -I
 ```
@@ -203,7 +197,7 @@ Ornek sesli komutlar:
 - "Sabah planim nedir"
 - "Gorev ekle yarin saat 10 toplanti"
 - "Hatirla aksam ilac al"
-- "15 Mart'ta ne var"
+- "15 Marta ne var"
 
 ---
 
